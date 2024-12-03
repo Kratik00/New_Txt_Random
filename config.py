@@ -6,7 +6,6 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    pass
     """
     BOT_TOKEN = environ.get("BOT_TOKEN", "7959445535:AAH6cQtHpNBDfx8b8MGkdrxeM3imLZ1LFHg")
     API_ID = int(os.environ["API_ID", 29259501]
