@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 # (c) ACE 
 
-import os
+from os import environ
 
 class Config(object):
     # get a token from @BotFather
     pass
     """
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ["API_ID",29259501 ]
-    API_HASH = os.environ["API_HASH", "290ab5e9ce678bbf1151b4d5072d0db2"]
-    AUTH_USERS = "6290395209"""
+    BOT_TOKEN = environ.get("BOT_TOKEN", "")
+    API_ID = int(environ.get("API_ID", "29259501"))
+    API_HASH = environ.get("API_HASH", "290ab5e9ce678bbf1151b4d5072d0db2")
+    AUTH_USERS = 6290395209"""
 
